@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5847AA171244C66086E9E62F /* libPods-s3streamer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3FF97E7F0D171E0EF1EE87 /* libPods-s3streamer.a */; };
+		6F827F151AECFCFC0039E941 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F827F141AECFCFC0039E941 /* main.m */; };
+		6F827F181AECFCFC0039E941 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F827F171AECFCFC0039E941 /* AppDelegate.m */; };
+		6F827F1B1AECFCFC0039E941 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F827F1A1AECFCFC0039E941 /* ViewController.m */; };
+		6F827F1E1AECFCFC0039E941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F827F1C1AECFCFC0039E941 /* Main.storyboard */; };
+		6F827F201AECFCFC0039E941 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F827F1F1AECFCFC0039E941 /* Images.xcassets */; };
+		6F827F231AECFCFC0039E941 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F827F211AECFCFC0039E941 /* LaunchScreen.xib */; };
+		6F827F2F1AECFCFC0039E941 /* s3streamerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F827F2E1AECFCFC0039E941 /* s3streamerTests.m */; };
+		6F827F391AED01670039E941 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F827F381AED01670039E941 /* image.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F827F291AECFCFC0039E941 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F827F071AECFCFC0039E941 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F827F0E1AECFCFC0039E941;
+			remoteInfo = s3streamer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F827F0F1AECFCFC0039E941 /* s3streamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = s3streamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F827F131AECFCFC0039E941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F827F141AECFCFC0039E941 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F827F161AECFCFC0039E941 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F827F171AECFCFC0039E941 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F827F191AECFCFC0039E941 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F827F1A1AECFCFC0039E941 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F827F1D1AECFCFC0039E941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F827F1F1AECFCFC0039E941 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6F827F221AECFCFC0039E941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6F827F281AECFCFC0039E941 /* s3streamerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = s3streamerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F827F2D1AECFCFC0039E941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F827F2E1AECFCFC0039E941 /* s3streamerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = s3streamerTests.m; sourceTree = "<group>"; };
+		6F827F381AED01670039E941 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		78901F4947725DF1DD28FAF2 /* Pods-s3streamer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-s3streamer.release.xcconfig"; path = "Pods/Target Support Files/Pods-s3streamer/Pods-s3streamer.release.xcconfig"; sourceTree = "<group>"; };
+		7DD76BF1AE0B92E0871EAF72 /* Pods-s3streamer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-s3streamer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-s3streamer/Pods-s3streamer.debug.xcconfig"; sourceTree = "<group>"; };
+		DC3FF97E7F0D171E0EF1EE87 /* libPods-s3streamer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-s3streamer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F827F0C1AECFCFC0039E941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5847AA171244C66086E9E62F /* libPods-s3streamer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F827F251AECFCFC0039E941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F827F061AECFCFC0039E941 = {
+			isa = PBXGroup;
+			children = (
+				6F827F111AECFCFC0039E941 /* s3streamer */,
+				6F827F2B1AECFCFC0039E941 /* s3streamerTests */,
+				6F827F101AECFCFC0039E941 /* Products */,
+				88E1B69E99DABD85928862FA /* Pods */,
+				92E398843641F2DC0DA3A04B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F827F101AECFCFC0039E941 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F827F0F1AECFCFC0039E941 /* s3streamer.app */,
+				6F827F281AECFCFC0039E941 /* s3streamerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F827F111AECFCFC0039E941 /* s3streamer */ = {
+			isa = PBXGroup;
+			children = (
+				6F827F161AECFCFC0039E941 /* AppDelegate.h */,
+				6F827F171AECFCFC0039E941 /* AppDelegate.m */,
+				6F827F191AECFCFC0039E941 /* ViewController.h */,
+				6F827F1A1AECFCFC0039E941 /* ViewController.m */,
+				6F827F1C1AECFCFC0039E941 /* Main.storyboard */,
+				6F827F1F1AECFCFC0039E941 /* Images.xcassets */,
+				6F827F211AECFCFC0039E941 /* LaunchScreen.xib */,
+				6F827F121AECFCFC0039E941 /* Supporting Files */,
+			);
+			path = s3streamer;
+			sourceTree = "<group>";
+		};
+		6F827F121AECFCFC0039E941 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F827F381AED01670039E941 /* image.png */,
+				6F827F131AECFCFC0039E941 /* Info.plist */,
+				6F827F141AECFCFC0039E941 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F827F2B1AECFCFC0039E941 /* s3streamerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F827F2E1AECFCFC0039E941 /* s3streamerTests.m */,
+				6F827F2C1AECFCFC0039E941 /* Supporting Files */,
+			);
+			path = s3streamerTests;
+			sourceTree = "<group>";
+		};
+		6F827F2C1AECFCFC0039E941 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F827F2D1AECFCFC0039E941 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88E1B69E99DABD85928862FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DD76BF1AE0B92E0871EAF72 /* Pods-s3streamer.debug.xcconfig */,
+				78901F4947725DF1DD28FAF2 /* Pods-s3streamer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92E398843641F2DC0DA3A04B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC3FF97E7F0D171E0EF1EE87 /* libPods-s3streamer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F827F0E1AECFCFC0039E941 /* s3streamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F827F321AECFCFC0039E941 /* Build configuration list for PBXNativeTarget "s3streamer" */;
+			buildPhases = (
+				47B6908EC3B54EF66F7816AF /* Check Pods Manifest.lock */,
+				6F827F0B1AECFCFC0039E941 /* Sources */,
+				6F827F0C1AECFCFC0039E941 /* Frameworks */,
+				6F827F0D1AECFCFC0039E941 /* Resources */,
+				5AC3F2DF38FF30D32AC1D6FC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = s3streamer;
+			productName = s3streamer;
+			productReference = 6F827F0F1AECFCFC0039E941 /* s3streamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F827F271AECFCFC0039E941 /* s3streamerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F827F351AECFCFC0039E941 /* Build configuration list for PBXNativeTarget "s3streamerTests" */;
+			buildPhases = (
+				6F827F241AECFCFC0039E941 /* Sources */,
+				6F827F251AECFCFC0039E941 /* Frameworks */,
+				6F827F261AECFCFC0039E941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F827F2A1AECFCFC0039E941 /* PBXTargetDependency */,
+			);
+			name = s3streamerTests;
+			productName = s3streamerTests;
+			productReference = 6F827F281AECFCFC0039E941 /* s3streamerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F827F071AECFCFC0039E941 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Appollo x";
+				TargetAttributes = {
+					6F827F0E1AECFCFC0039E941 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					6F827F271AECFCFC0039E941 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 6F827F0E1AECFCFC0039E941;
+					};
+				};
+			};
+			buildConfigurationList = 6F827F0A1AECFCFC0039E941 /* Build configuration list for PBXProject "s3streamer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F827F061AECFCFC0039E941;
+			productRefGroup = 6F827F101AECFCFC0039E941 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F827F0E1AECFCFC0039E941 /* s3streamer */,
+				6F827F271AECFCFC0039E941 /* s3streamerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F827F0D1AECFCFC0039E941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F827F1E1AECFCFC0039E941 /* Main.storyboard in Resources */,
+				6F827F231AECFCFC0039E941 /* LaunchScreen.xib in Resources */,
+				6F827F201AECFCFC0039E941 /* Images.xcassets in Resources */,
+				6F827F391AED01670039E941 /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F827F261AECFCFC0039E941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47B6908EC3B54EF66F7816AF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5AC3F2DF38FF30D32AC1D6FC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-s3streamer/Pods-s3streamer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F827F0B1AECFCFC0039E941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F827F1B1AECFCFC0039E941 /* ViewController.m in Sources */,
+				6F827F181AECFCFC0039E941 /* AppDelegate.m in Sources */,
+				6F827F151AECFCFC0039E941 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F827F241AECFCFC0039E941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F827F2F1AECFCFC0039E941 /* s3streamerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F827F2A1AECFCFC0039E941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F827F0E1AECFCFC0039E941 /* s3streamer */;
+			targetProxy = 6F827F291AECFCFC0039E941 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F827F1C1AECFCFC0039E941 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F827F1D1AECFCFC0039E941 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F827F211AECFCFC0039E941 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F827F221AECFCFC0039E941 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F827F301AECFCFC0039E941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F827F311AECFCFC0039E941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F827F331AECFCFC0039E941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DD76BF1AE0B92E0871EAF72 /* Pods-s3streamer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = s3streamer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F827F341AECFCFC0039E941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78901F4947725DF1DD28FAF2 /* Pods-s3streamer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = s3streamer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6F827F361AECFCFC0039E941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = s3streamerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/s3streamer.app/s3streamer";
+			};
+			name = Debug;
+		};
+		6F827F371AECFCFC0039E941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = s3streamerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/s3streamer.app/s3streamer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F827F0A1AECFCFC0039E941 /* Build configuration list for PBXProject "s3streamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F827F301AECFCFC0039E941 /* Debug */,
+				6F827F311AECFCFC0039E941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F827F321AECFCFC0039E941 /* Build configuration list for PBXNativeTarget "s3streamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F827F331AECFCFC0039E941 /* Debug */,
+				6F827F341AECFCFC0039E941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F827F351AECFCFC0039E941 /* Build configuration list for PBXNativeTarget "s3streamerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F827F361AECFCFC0039E941 /* Debug */,
+				6F827F371AECFCFC0039E941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F827F071AECFCFC0039E941 /* Project object */;
+}
