@@ -1,4 +1,4 @@
-# s3-streamer
+# ios-nodejs-s3-streamer
 
 ## Usage
 
